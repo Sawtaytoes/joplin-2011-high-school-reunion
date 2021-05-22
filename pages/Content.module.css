@@ -1,0 +1,16 @@
+.text {
+  color: #0b2d57;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-width: 37.5rem;
+  text-align: left;
+}
+
+.text strong {
+  font-weight: 900;
+}

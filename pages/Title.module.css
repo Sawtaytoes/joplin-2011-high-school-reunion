@@ -1,0 +1,22 @@
+.text {
+  color: #91002c;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 2px 2px white, -2px -2px #9e9fa4;
+}
+
+@media (min-width: 31.25rem) {
+  .text {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 50rem) {
+  .text {
+    font-size: 6rem;
+    text-shadow: 3px 3px white, -3px -3px #9e9fa4;
+  }
+}

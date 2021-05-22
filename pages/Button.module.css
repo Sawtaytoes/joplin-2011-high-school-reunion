@@ -1,0 +1,22 @@
+.button {
+  color: #0b2d57;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0b2d57;
+  background: transparent;
+  font-size: 2rem;
+  padding: 2rem;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  box-shadow: 0 4px #0b2d57;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background: #0b2d57;
+    color: #fff;
+    top: 4px;
+    box-shadow: none;
+  }
+}

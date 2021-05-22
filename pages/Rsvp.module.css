@@ -1,0 +1,14 @@
+.facebookLink {
+  color: #0b2d57;
+  display: inline-flex;
+  align-items: flex-end;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+  max-width: 37.5rem;
+}
+
+.hashTag {
+  margin-left: 1rem;
+}

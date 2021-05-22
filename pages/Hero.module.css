@@ -1,0 +1,44 @@
+.backgroundImage {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+}
+
+.contents {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.hero {
+  align-items: center;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+@media (min-width: 31.25rem) {
+  .hero {
+    height: 20vh;
+  }
+}
+
+@media (min-width: 50rem) {
+  .hero {
+    height: 25vh;
+  }
+}
+
+.heroTitle {
+  position: relative;
+}
